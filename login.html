@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk - Nusantara Kini</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hubungkan ke file style.css yang sama -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+    <div class="login-card">
+        <div class="login-header">
+            <div class="logo" style="justify-content: center;">
+                <i class="fa-solid fa-earth-asia" style="color: var(--primary);"></i>
+                Nusantara<span>Kini</span>
+            </div>
+            <h2>Masuk ke Akun Anda</h2>
+            <p>Akses berita eksklusif dan simpan artikel favorit</p>
+        </div>
+
+        <form onsubmit="handleLogin(event)">
+            <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" id="email" class="form-control" placeholder="nama@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Kata Sandi</label>
+                <input type="password" id="password" class="form-control" placeholder="••••••••" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Masuk Sekarang</button>
+        </form>
+
+        <div class="back-to-home">
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda Portal</a>
+        </div>
+    </div>
+
+    <script>
+        function handleLogin(event) {
+            event.preventDefault();
+            alert("Login berhasil! Mengalihkan ke halaman utama berita...");
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Berita - Nusantara Kini</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hubungkan ke file style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="date-info">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>Selasa, 13 Oktober 2026</span>
+                </div>
+                <div class="social-icons" style="display: flex; gap: 15px;">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container main-nav">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-earth-asia" style="color: var(--primary);"></i>
+                Nusantara<span>Kini</span>
+            </a>
+            
+            <div class="nav-right">
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i> Masuk
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN ARTICLE CONTAINER -->
+    <main class="container">
+        <section class="article-view" style="display: block;">
+            <div class="article-container">
+                
+                <!-- Tombol Kembali ke Halaman Utama -->
+                <a href="index.html" class="back-btn">
+                    <i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda
+                </a>
+
+                <div class="article-header">
+                    <span class="tag" id="articleCategory">Teknologi</span>
+                    <h1 class="article-title" id="articleTitle">Transformasi Digital Nasional: Pemerintah Luncurkan Jaringan AI Hub Terbesar di Asia Tenggara</h1>
+                    
+                    <div class="article-author-box">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Penulis" class="author-avatar" id="authorAvatar">
+                        <div class="author-details">
+                            <h4 id="authorName">Ahmad Fauzi</h4>
+                            <p id="authorRole">Senior Tech Journalist • Dipublikasikan 10 Menit yang lalu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Featured Image" class="article-featured-img" id="articleImage">
+
+                <div class="article-content" id="articleBodyContent">
+                    <p><strong>JAKARTA</strong> — Pemerintah Republik Indonesia secara resmi meluncurkan pusat kecerdasan buatan (Artificial Intelligence Hub) terintegrasi terbesar di kawasan Asia Tenggara hari ini. Fasilitas mutakhir ini berlokasi di jantung kawasan inovasi digital dan dirancang sebagai pusat kolaborasi antara akademisi, industri global, dan perusahaan rintisan lokal.</p>
+                    
+                    <p>Menteri Komunikasi dan Digital dalam sambutannya menyatakan bahwa langkah ini merupakan tonggak sejarah penting dalam mewujudkan visi Indonesia Emas. Penguasaan teknologi masa depan seperti kecerdasan buatan dan komputasi awan adalah kunci utama keluar dari jebakan pendapatan menengah (middle-income trap).</p>
+                    
+                    <h3>Kolaborasi Global dan Talenta Lokal</h3>
+                    <p>Fasilitas ini telah menggandeng raksasa teknologi internasional guna menyediakan fasilitas pelatihan kelas dunia bagi generasi muda Indonesia. Program beasiswa sertifikasi AI dan riset mendalam akan segera dibuka untuk umum mulai bulan depan.</p>
+                    
+                    <p>"Kami ingin memastikan anak-anak muda kita tidak hanya menjadi pengguna teknologi, tetapi menjadi pencipta dan pemimpin inovasi di kancah global," ujar perwakilan konsorsium teknologi nasional.</p>
+                </div>
+
+                <div class="share-box">
+                    <span>Bagikan Artikel Ini:</span>
+                    <div class="share-btn" title="Bagikan ke Facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="share-btn" title="Bagikan ke Twitter"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="share-btn" title="Salin Tautan" onclick="alert('Tautan artikel berhasil disalin!')"><i class="fa-solid fa-link"></i></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="color: var(--white); margin-bottom: 15px;">
+                        <i class="fa-solid fa-earth-asia" style="color: var(--primary);"></i>
+                        Nusantara<span>Kini</span>
+                    </div>
+                    <p>Portal berita terdepan yang menyajikan informasi aktual, tajam, berimbang, dan terpercaya dari berbagai penjuru nusantara.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Kategori Populer</h3>
+                    <ul>
+                        <li><a href="index.html">Politik & Hukum</a></li>
+                        <li><a href="index.html">Ekonomi & Bisnis</a></li>
+                        <li><a href="index.html">Teknologi</a></li>
+                        <li><a href="index.html">Olahraga</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Hubungi Kami</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Jl. MH Thamrin No. 10, Jakarta Pusat</p>
+                    <p><i class="fa-solid fa-envelope"></i> redaksi@nusantarakini.id</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Nusantara Kini Media Group. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
